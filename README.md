@@ -1,6 +1,12 @@
-# Unreal Engine 4/5 Scripting System
+# Unreal Engine 4/5 Scripting System - For Mafia: The Old Country
 
-Lua scripting system platform, C++ Modding API, SDK generator, blueprint mod loader, live property editor and other dumping utilities for UE4/5 games.
+Lua scripting system platform, C++ Modding API, SDK generator, blueprint mod loader, live property editor and other dumping utilities for Mafia: The Old Country.
+
+Fork of Unreal Engine 4/5 Scripting System at [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS).
+
+This fork of UE4SS is identical in terms of code and features, except that the UEPseudo git submoodule has been modified to work with Mafia: The Old Country.
+
+Changes will be synced periodically with the main UE4SS repository.
 
 ## Major features
 
