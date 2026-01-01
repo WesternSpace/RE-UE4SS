@@ -124,7 +124,7 @@ jobs:
           echo "Downloading from experimental-latest release..."
           gh release download experimental-latest \
             --repo ${{ github.repository }} \
-            --pattern "zDEV-UE4SS_*.zip" \
+            --pattern "zDEV-UE4SS-MafiaTOC_*.zip" \
             --dir ./temp_download || {
               echo "Failed to download from release"
               exit 1
@@ -132,7 +132,7 @@ jobs:
 
           # Extract the zip to get UE4SS.dll, dwmapi.dll, and mod DLLs
           cd temp_download
-          unzip -o zDEV-UE4SS_*.zip
+          unzip -o zDEV-UE4SS-MafiaTOC_*.zip
 
           # Copy required files to build_output
           # UE4SS.dll is inside ue4ss folder
@@ -216,8 +216,8 @@ jobs:
           tag_name: experimental
           body_path: release/release_notes.md
           files: |
-            release/UE4SS_v*.zip
-            release/zDEV-UE4SS_v*.zip
+            release/UE4SS-MafiaTOC_v*.zip
+            release/zDEV-UE4SS-MafiaTOC_v*.zip
             release/zCustomGameConfigs.zip
             release/zMapGenBP.zip
 
@@ -237,7 +237,7 @@ jobs:
           tag_name: experimental-latest
           body_path: release/release_notes.md
           files: |
-            release/UE4SS_v*.zip
-            release/zDEV-UE4SS_v*.zip
+            release/UE4SS-MafiaTOC_v*.zip
+            release/zDEV-UE4SS-MafiaTOC_v*.zip
             release/zCustomGameConfigs.zip
             release/zMapGenBP.zip
