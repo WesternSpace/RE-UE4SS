@@ -21,7 +21,7 @@ Changes will be synced periodically with the main UE4SS repository.
 - [UMAP Recreation Dumper](https://docs.ue4ss.com/dev/feature-overview/dumpers.html#umap-recreation-dumper): Dump all loaded actors to file to generate `.umaps` in-editor
 - Other Features, including [Experimental](https://docs.ue4ss.com/dev/feature-overview/experimental.html) features at times
 
-## Targeting UE Versions: From 4.12 To 5.5
+## Targeting UE Versions: From 4.12 To 5.7
 
 The goal of UE4SS is not to be a plug-n-play solution that always works with every game.
 The goal is to have an underlying system that works for most games.
